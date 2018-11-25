@@ -4,7 +4,7 @@ version = "0.1.0-1"
 source = {
     url = "git://github.com/bparthu/ctrl-oidc-transformer",
     tag = "v1.0",
-    dir = "ctrloidctransformer",
+    dir = "ctrl-oidc-transformer",
 }
 
 description = {
