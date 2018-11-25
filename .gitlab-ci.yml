@@ -7,7 +7,7 @@ stages:
 
 build:
   stage: build
-  tags: [linux, docker, k8]
+  tags: [linux, docker]
   image: node:boron
   script:
     - tar -cvzf ctrl-oidc-transformer.tar.gz .
@@ -19,7 +19,7 @@ build:
 deploy_branch:
   when: manual
   stage: deploy
-  tags: [linux, docker, k8]
+  tags: [linux, docker]
   image: ctrlhub-deloitte.azurecr.io/in/deploy-webapp:latest
   script:
     - deploy-webapp -e $CI_COMMIT_REF_NAME ./ ctrl-oidc-transformer
@@ -29,7 +29,7 @@ deploy_branch:
 
 deploy:version:
   stage: deploy
-  tags: [linux, docker, k8]
+  tags: [linux, docker]
   image: ctrlhub-deloitte.azurecr.io/in/deploy-webapp:latest
   script:
     - deploy-webapp -e $CI_COMMIT_REF_NAME ./ ctrl-oidc-transformer
