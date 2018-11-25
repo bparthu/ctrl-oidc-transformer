@@ -4,7 +4,7 @@ return {
 
   fields = {
 
-    input_header_name = { type = "string", required = true }
+    input_header_name = { type = "string", required = true },
     output_header_name = { type = "string", required = true }
 
   }
