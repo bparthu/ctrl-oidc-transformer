@@ -1,10 +1,8 @@
 package = "ctrl-oidc-transformer"
-version = "0.1.0-1"
+version = "0.1.0-2"
 
 source = {
-    url = "git://github.com/bparthu/ctrl-oidc-transformer",
-    tag = "v1.0",
-    dir = "ctrl-oidc-transformer",
+    url = "git://github.com/bparthu/ctrl-oidc-transformer"
 }
 
 description = {
@@ -12,6 +10,7 @@ description = {
 }
 
 dependencies = {
+  "lua >= 5.1"
 }
 
 build = {
