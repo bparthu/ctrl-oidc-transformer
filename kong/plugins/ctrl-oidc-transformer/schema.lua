@@ -4,7 +4,7 @@ return {
 
   fields = {
 
-    say_hello = { type = "boolean", default = true }
+    header_name = { type = "string", required = true }
 
   }
 
