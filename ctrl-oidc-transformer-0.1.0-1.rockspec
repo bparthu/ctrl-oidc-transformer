@@ -1,10 +1,6 @@
 package = "ctrl-oidc-transformer"
 version = "0.1.0-1"
 
--- Extract plugin name from the package name.
-local pluginName = package:match("^kong%-plugin%-(.+)$")
-
-supported_platforms = {"linux", "macosx"}
 source = {
   url = "git://github.com/bparthu/ctrl-oidc-transformer"
 }
