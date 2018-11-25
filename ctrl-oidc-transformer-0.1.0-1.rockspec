@@ -6,7 +6,7 @@ local pluginName = package:match("^kong%-plugin%-(.+)$")
 
 supported_platforms = {"linux", "macosx"}
 source = {
-  url = "https://github.com/bparthu/ctrl-oidc-transformer.git"
+  url = "git://github.com/bparthu/ctrl-oidc-transformer.git"
 }
 
 description = {
