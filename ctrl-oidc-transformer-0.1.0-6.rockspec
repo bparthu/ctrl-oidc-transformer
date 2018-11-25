@@ -1,8 +1,8 @@
 package = "ctrl-oidc-transformer"
-version = "0.1.0-3"
+version = "0.1.0-6"
 
 source = {
-    url = "git://github.com/bparthu/ctrl-oidc-transformer"
+    url = "https://github.com/bparthu/ctrl-oidc-transformer/raw/master/ctrl-oidc-transformer-0.1.0.tar.gz"
 }
 
 description = {
