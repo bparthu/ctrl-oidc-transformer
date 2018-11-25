@@ -4,12 +4,11 @@ local req_get_headers = ngx.req.get_headers
 
 
 function _M.execute(conf)
-
   if conf.say_hello then
     ngx.log(ngx.ERR, "============ Hello World! ============")
-    if req_get_headers()["x-ctrl-username"] then
-      ngx.log(ngx.ERR, "found x-ctrl-username header")
-      local value = req_get_headers()["x-ctrl-username"]
+    if req_get_headers()["x-userinfo"] then
+      ngx.log(ngx.ERR, "found x-userinfo header")
+      local value = req_get_headers()["x-userinfo"]
       ngx_set_header("x-new-header", value)
     end
     ngx_set_header("hello-world","Hello World !!!")
