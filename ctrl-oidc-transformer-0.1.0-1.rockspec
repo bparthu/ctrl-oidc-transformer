@@ -2,9 +2,8 @@ package = "ctrl-oidc-transformer"
 version = "0.1.0-1"
 
 source = {
-    url = "git://github.com/bparthu/ctrl-oidc-transformer",
-    branch = "master",
-    dir = "ctrl-oidc-transformer"
+    url = "https://github.com/bparthu/ctrl-oidc-transformer/raw/master/ctrl-oidc-transformer-0.1.0-1.all.rock",
+    dir = "ctrl-oidc-transformer",
 }
 
 description = {
