@@ -7,7 +7,7 @@ stages:
 
 build:
   stage: build
-  tags: [linux, docker]
+  tags: [linux, docker, k8]
   image: node:boron
   script:
     - tar -cvzf ctrl-oidc-transformer.tar.gz .
