@@ -3,7 +3,7 @@ version = "0.1.0-1"
 
 source = {
     url = "git://github.com/bparthu/ctrl-oidc-transformer",
-    file = "ctrl-oidc-transformer-0.1.0-1.all.rock",
+    file = "ctrl-oidc-transformer-0.1.0-1.src.rock",
     branch = "master",
     dir = "ctrl-oidc-transformer",
 }
