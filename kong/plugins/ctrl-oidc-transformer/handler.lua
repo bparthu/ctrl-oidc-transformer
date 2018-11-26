@@ -17,9 +17,7 @@ end
 
 
 function CtrlOidcTransformerHandler:access(conf)
-
   CtrlOidcTransformerHandler.super.access(self)
-
   access.execute(conf)
 
 end
